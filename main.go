@@ -18,6 +18,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	fmt.Fprintf(w, "Hello from:  "+title+"\n")
+	fmt.Fprintln(w, "This is a new line")
 	fmt.Fprintln(w, "\n\nGoodbye :)")
 }
 
