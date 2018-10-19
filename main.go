@@ -21,6 +21,9 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintln(w, "This is a new line")
 	fmt.Fprintln(w, "\n\nGoodbye :)")
 	fmt.Fprintln(w, "This is a new line********")
+
+	fmt.Fprintln(w, "Hopefully this works\n")
+
 }
 
 func main() {
